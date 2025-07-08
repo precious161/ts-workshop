@@ -11,3 +11,8 @@ const Student: student = {
   firstName: "Feyruza",
   department: "Computer Science",
 };
+
+interface Sum {
+  (x: number, y: number): number;
+}
+const AddNum: Sum = (x: number, y: number): number => x + y;
