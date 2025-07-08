@@ -42,3 +42,7 @@ var techies;
     techies["AI"] = "AI Engineer";
     techies["CS"] = "Cyber Security Specialist";
 })(techies || (techies = {}));
+// Type Assertion
+var data = 98;
+var nums = data;
+var numb = data;

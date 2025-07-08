@@ -56,3 +56,8 @@ enum techies {
   AI = "AI Engineer",
   CS = "Cyber Security Specialist",
 }
+
+// Type Assertion
+let data: any = 98;
+let nums = <number>data;
+let numb = data as number;
