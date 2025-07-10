@@ -56,3 +56,21 @@ class Cat extends Pet {
   }
 }
 const cat = new Cat("Cat", "milk", "meow");
+
+// Data Modifiers
+class Health{
+    public dept: string;
+    private id: number;
+    protected salary: number;
+    constructor(dept: string,id:number,salary:number){
+        this.dept=dept;
+        this.salary=salary;
+        this.id=id;
+    }
+    getId(): number{
+        return this.id;
+    }
+}
+const doctor=new Health("Dentist",642,63476);
+console.log(doctor.dept);
+console.log(doctor.getId);
